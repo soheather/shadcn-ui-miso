@@ -394,3 +394,27 @@
     --sidebar-ring: var(--color-violet-900);
   }
 }
+
+.theme-miso .theme-container,
+.theme-miso [data-radix-popper-content-wrapper] {
+  --primary: oklch(0.55 0.26 285);
+  --primary-foreground: oklch(0.97 0.03 285);
+  --ring: oklch(0.70 0.20 285);
+  --chart-1: oklch(0.72 0.14 220);
+  --chart-2: oklch(0.66 0.17 145);
+  --chart-3: oklch(0.55 0.26 285);
+  --chart-4: oklch(0.60 0.25 340);
+  --chart-5: oklch(0.48 0.23 285);
+  --sidebar-primary: oklch(0.55 0.26 285);
+  --sidebar-primary-foreground: oklch(0.97 0.03 285);
+  --sidebar-ring: oklch(0.70 0.20 285);
+
+  @variant dark {
+    --primary: oklch(0.60 0.24 285);
+    --primary-foreground: oklch(0.97 0.03 285);
+    --ring: oklch(0.38 0.19 285);
+    --sidebar-primary: oklch(0.60 0.24 285);
+    --sidebar-primary-foreground: oklch(0.97 0.03 285);
+    --sidebar-ring: oklch(0.38 0.19 285);
+  }
+}
