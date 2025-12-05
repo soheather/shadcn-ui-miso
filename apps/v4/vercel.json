@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm --filter=shadcn build && pnpm build",
+  "devCommand": "pnpm dev",
+  "installCommand": "pnpm install",
+  "framework": "nextjs"
+}
+
