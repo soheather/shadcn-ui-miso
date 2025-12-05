@@ -1,7 +1,8 @@
 {
-  "buildCommand": "pnpm --filter=shadcn build && pnpm build",
+  "buildCommand": "cd ../.. && pnpm --filter=shadcn build && cd apps/v4 && pnpm build",
   "devCommand": "pnpm dev",
-  "installCommand": "pnpm install",
-  "framework": "nextjs"
+  "installCommand": "cd ../.. && pnpm install",
+  "framework": "nextjs",
+  "outputDirectory": ".next"
 }
 

@@ -1,8 +1,0 @@
-{
-  "buildCommand": "cd apps/v4 && pnpm --filter=shadcn build && pnpm build",
-  "devCommand": "cd apps/v4 && pnpm dev",
-  "installCommand": "pnpm install",
-  "framework": "nextjs",
-  "outputDirectory": "apps/v4/.next"
-}
-
